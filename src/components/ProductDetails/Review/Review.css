@@ -1,0 +1,10 @@
+.single-reviews{
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px auto;
+}
+.single-reviews h4{
+    font-size: 16px;
+}

@@ -1,0 +1,16 @@
+.footer h5{
+    border-bottom: 3px solid grey;
+    margin-bottom: 20px;
+}
+.footer .logoSection i{
+    font-size: 50px;
+    padding: 5px;
+}
+.footer{
+    border-bottom: 2px solid grey;
+    padding:40px 0px;
+    background-color: #fff;
+}
+.logoSection{
+    padding-top: 40px;
+}

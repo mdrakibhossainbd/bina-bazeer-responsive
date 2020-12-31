@@ -1,0 +1,27 @@
+.relative-products h3{
+    padding: 8px 13px;
+    margin: 0;
+    background: #D6D6D6;
+    font-size: 14px;
+}
+.single-relative-products{
+    border: 1px solid gray;
+    padding: 5px;
+    
+}
+.image-holder{
+    width: 30%;
+    margin-right: 15px;
+    float: left;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.caption h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: #C79FFF;
+}
+.caption p{
+    color: #FF8AAF;
+    font-weight: bold;
+}

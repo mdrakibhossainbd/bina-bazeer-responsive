@@ -1,0 +1,94 @@
+.quantity-area ins{
+    font-size: 24px;
+    color: #059C47;
+    font-weight: 600;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.product-quantity{
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.quantity-flex{
+    display: flex;
+    align-items: center;
+}
+.ct1{
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.qty{
+    padding: 10px 0px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5
+}
+.qty input{
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-align: center;
+}
+.qty input:focus{
+    outline: none;
+}
+.buyNow-btn{
+    text-align: center;
+    background: #059C47;
+    color: #ffffff;
+    border: medium none;
+    font-weight: 600;
+    height: 45px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: all 400ms ease-out 0s;
+    cursor: pointer;
+}
+.buyNow-btn:hover{
+    background: #06883e;
+}
+.buyNow-btn button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 4px;
+    padding: none;
+    margin: none;
+}
+.buyNow-btn button:focus{
+    border: none;
+    outline: none;
+}
+.wish-list{
+    display: inline-block;
+}
+.wish-list ul{
+    list-style: none;
+}
+.wish-list ul li{
+    text-align: center;
+    background: #5D5D5D;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0 5px;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: all 400ms ease-out 0s;
+    cursor: pointer;
+}
+.wish-list ul li:hover{
+    background: #059C47;
+}
+
+
+@media screen and (max-width: 535px) {
+    .quantity-flex{
+        display: block;
+    }
+    
+}

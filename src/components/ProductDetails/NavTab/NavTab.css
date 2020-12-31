@@ -1,0 +1,32 @@
+.col-md-9{
+    margin: 0;
+    padding: 0;
+}
+.nav-tab {
+    border-bottom: 1px solid #eaeaea;
+    background: #D6D6D6;
+    
+}
+.nav-tab li {
+    flex: auto;
+    list-style: none;
+}
+.nav-tab  li {
+    text-align: center;
+    display: inline-block;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 0 ;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+}
+.nav-tab li a{
+    display: block;
+}
+.nav-tab  li:hover{
+    background: #059C47;
+    color: #ffffff;
+}

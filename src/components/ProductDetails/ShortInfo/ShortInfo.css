@@ -1,0 +1,33 @@
+.short-info h1{
+    font-size: 16px;
+    color: #2C2C2C;
+    padding-top: 15px;
+}
+.short-info p{
+    font-size: 14px;
+    color: #2C2C2C;
+    padding-top: 10px;
+}
+.short-info h3{
+    color: #828282;
+    padding-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.product-info-label{
+    font-weight: bold;
+    margin-right: 20px;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+}
+.product-info-label::after{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    background: #565656;
+    height: 4px;
+    width: 4px;
+    content: "";
+    border-radius: 50px;
+}
